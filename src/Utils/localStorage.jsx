@@ -1,8 +1,19 @@
+localStorage.clear()
+
 const employees = [
   {
     id: 1,
+    firstName: "Aarav",
     email: "employee1@example.com",
     password: "123",
+
+    taskNumbers: {
+      active: 1,
+      newTask: 1,
+      completed: 1,
+      failed: 1
+    },
+
     tasks: [
       {
         active: true,
@@ -36,10 +47,20 @@ const employees = [
       }
     ]
   },
+
   {
     id: 2,
+    firstName: "Vivaan",
     email: "employee2@example.com",
     password: "123",
+
+    taskNumbers: {
+      active: 1,
+      newTask: 1,
+      completed: 1,
+      failed: 1
+    },
+
     tasks: [
       {
         active: true,
@@ -73,10 +94,20 @@ const employees = [
       }
     ]
   },
+
   {
     id: 3,
+    firstName: "Aditya",
     email: "employee3@example.com",
     password: "123",
+
+    taskNumbers: {
+      active: 1,
+      newTask: 1,
+      completed: 1,
+      failed: 1
+    },
+
     tasks: [
       {
         active: true,
@@ -110,10 +141,20 @@ const employees = [
       }
     ]
   },
+
   {
     id: 4,
+    firstName: "Krishna",
     email: "employee4@example.com",
     password: "123",
+
+    taskNumbers: {
+      active: 1,
+      newTask: 1,
+      completed: 1,
+      failed: 1
+    },
+
     tasks: [
       {
         active: true,
@@ -147,10 +188,20 @@ const employees = [
       }
     ]
   },
+
   {
     id: 5,
+    firstName: "Arjun",
     email: "employee5@example.com",
     password: "123",
+
+    taskNumbers: {
+      active: 1,
+      newTask: 1,
+      completed: 1,
+      failed: 1
+    },
+
     tasks: [
       {
         active: true,
