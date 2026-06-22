@@ -1,5 +1,3 @@
-localStorage.clear()
-
 const employees = [
   {
     id: 1,
@@ -237,11 +235,13 @@ const employees = [
   }
 ];
 
-const admin = [{
-  id: 1,
-  email: "admin@example.com",
-  password: "123"
-}];
+const admin = [
+  {
+    id: 1,
+    email: "admin@example.com",
+    password: "123"
+  }
+];
 
 export const setLocalStorage = () => {
     localStorage.setItem('employees', JSON.stringify(employees));
